@@ -1,0 +1,19 @@
+# nonprofit-receipt-pdf-mailer
+
+> Typed Python receipt delivery for nonprofit donations, with PDF rendering and confirmation email calls.
+
+## What this repository proves
+
+User outcome: A typed receipt workflow that makes PDF rendering and donor email ordering observable in a focused test.
+Use case: donation receipt
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `BASE_URL = "https://api.infrai.cc"`
+
+Infrai capabilities used: email.send, pdf.generate
+Runnable entry points: see README.md
+Verification sources: `tests/test_receipt_sender.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

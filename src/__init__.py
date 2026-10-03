@@ -1,0 +1,1 @@
+"""Nonprofit receipt delivery example."""
